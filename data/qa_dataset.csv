@@ -1,0 +1,171 @@
+question,answer
+What is Python?,Python is a high-level programming language used for web development AI and more.
+How to learn Python?,Start with basics practice daily and build projects.
+Explain Python programming,Python is an easy to learn high level programming language.
+Define Python,Python is a popular programming language used in many domains.
+What can Python be used for?,Python is used for web development AI data science and automation.
+
+What is machine learning?,Machine learning is a subset of AI that allows systems to learn from data.
+What is ML?,Machine learning is a technique where machines learn from data.
+Define machine learning,Machine learning enables systems to improve from experience.
+Explain machine learning,Machine learning allows systems to learn patterns from data.
+
+What is deep learning?,Deep learning is a type of machine learning using neural networks.
+Explain deep learning,Deep learning uses neural networks for complex tasks.
+
+What is AI?,Artificial Intelligence is the simulation of human intelligence in machines.
+Define artificial intelligence,AI refers to machines performing intelligent tasks.
+Explain AI,Artificial Intelligence enables machines to mimic human intelligence.
+
+What is NLP?,Natural Language Processing deals with understanding human language.
+Explain NLP,NLP helps machines understand human language.
+
+What is data science?,It involves extracting insights from data using statistics and algorithms.
+Explain data science,Data science extracts insights from structured and unstructured data.
+
+What is overfitting?,Overfitting occurs when a model learns noise instead of patterns.
+Explain overfitting in ML,Overfitting happens when model memorizes training data.
+
+What is underfitting?,Underfitting happens when a model is too simple.
+Explain underfitting in ML,Underfitting occurs when model fails to learn patterns.
+
+What is cosine similarity?,It measures similarity between two vectors based on angle.
+Explain cosine similarity,Cosine similarity measures similarity between embeddings.
+
+What is TF IDF?,TF-IDF measures importance of words in a document.
+How does TF IDF work?,It calculates importance based on frequency and rarity.
+
+What is OOP?,Object Oriented Programming is based on objects and classes.
+Explain OOP in C++,OOP is a paradigm using classes inheritance and polymorphism.
+
+What is inheritance?,Inheritance allows one class to acquire properties of another.
+What is polymorphism?,Polymorphism allows same function to behave differently.
+What is encapsulation?,Encapsulation hides internal data.
+What is abstraction?,Abstraction hides complex implementation details.
+
+What is a pointer in C++?,A pointer stores memory address.
+What is STL in C++?,STL is a library of data structures.
+What is vector in C++?,Vector is a dynamic array.
+
+What is a stack?,Stack is a LIFO data structure.
+What is a queue?,Queue is a FIFO data structure.
+
+What is BFS?,Breadth First Search explores level by level.
+What is DFS?,Depth First Search explores deeply.
+
+What is a graph?,Graph is a collection of nodes and edges.
+What is Dijkstra algorithm?,It finds shortest path in weighted graph.
+
+What is database?,Database stores structured data.
+What is SQL?,SQL is used to query databases.
+What is normalization?,It reduces redundancy in database.
+
+What is cloud computing?,Cloud computing provides services over internet.
+What is API?,API allows communication between systems.
+What is REST API?,REST API uses HTTP methods for communication.
+
+What is frontend?,Frontend is user interface.
+What is backend?,Backend handles logic and database.
+What is full stack development?,It includes frontend and backend.
+
+What is Git?,Git is a version control system.
+What is GitHub?,GitHub hosts Git repositories.
+
+What is Docker?,Docker is a container platform.
+What is Kubernetes?,Kubernetes manages containers.
+
+How to lose weight?,Maintain calorie deficit and exercise.
+How to reduce fat?,Focus on diet and workouts.
+Best way to lose weight?,Healthy diet and consistency.
+
+How to gain weight?,Increase calorie intake and strength training.
+What is fitness?,Fitness is overall health condition.
+
+What is blockchain?,Blockchain is a distributed ledger.
+What is cryptocurrency?,Digital currency secured by cryptography.
+
+What is HTML?,HTML structures web pages.
+What is CSS?,CSS styles web pages.
+What is JavaScript?,JavaScript adds interactivity.
+
+What is React?,React is a frontend library.
+What is Node.js?,Node.js runs JavaScript on server.
+What is Express.js?,Express is backend framework.
+
+Explain recursion,Recursion is function calling itself.
+What is time complexity?,It measures algorithm efficiency.
+What is space complexity?,It measures memory usage.
+
+What is supervised machine learning?,It uses labeled data to train models.
+What is unsupervised machine learning?,It finds patterns in unlabeled data.
+What is reinforcement learning?,It learns through rewards and penalties.
+
+What is a neural network?,A system inspired by the human brain structure.
+What is a neuron in AI?,A basic unit of a neural network.
+
+What is bias in machine learning?,Bias is an error due to wrong assumptions.
+What is variance in machine learning?,Variance measures model sensitivity to data.
+
+What is training data?,Data used to train a model.
+What is test data?,Data used to evaluate a model.
+
+What is feature?,An input variable used in prediction.
+What is label?,The output variable in supervised learning.
+
+What is classification?,Predicting categories or classes.
+What is regression?,Predicting continuous values.
+
+What is accuracy?,It measures correct predictions over total predictions.
+What is precision?,It measures correctness of positive predictions.
+What is recall?,It measures how many positives were identified.
+
+What is F1 score?,It balances precision and recall.
+What is confusion matrix?,It shows prediction vs actual values.
+
+What is dimensionality reduction?,Reducing number of input features.
+What is PCA?,Principal Component Analysis reduces data dimensions.
+
+What is clustering?,Grouping similar data points.
+What is K-means?,A clustering algorithm.
+
+What is anomaly detection?,Identifying unusual data points.
+What is outlier?,Data point that differs from others.
+
+What is big data?,Large datasets difficult to process.
+What is data warehouse?,Central storage for large data.
+
+What is data cleaning?,Removing errors from data.
+What is data preprocessing?,Preparing data for analysis.
+
+What is ETL?,Extract transform load process.
+What is data pipeline?,Flow of data processing steps.
+
+What is HTTP request?,A message sent by client to server.
+What is HTTP response?,Server reply to client request.
+
+What is status code?,Response code from server.
+What is 404 error?,Page not found error.
+
+What is authentication?,Verifying user identity.
+What is authorization?,Giving access permissions.
+
+What is session management?,Handling user sessions.
+What is cookies?,Data stored in browser.
+
+What is responsive design?,Design that adapts to screen size.
+What is bootstrap?,CSS framework for styling.
+
+What is asynchronous programming?,Executing tasks without blocking.
+What is synchronous programming?,Tasks executed sequentially.
+
+What is multithreading?,Running multiple threads.
+What is multiprocessing?,Running multiple processes.
+
+What is deadlock?,Processes waiting forever.
+What is starvation?,Process not getting resources.
+
+What is compiler?,Converts code to machine language.
+What is interpreter?,Executes code line by line.
+
+What is virtual machine?,Software emulation of computer.
+What is containerization?,Packaging app with dependencies.
