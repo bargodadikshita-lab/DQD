@@ -79,3 +79,4 @@ if st.button("Check"):
                 detector = DuplicateDetector("data/qa_dataset.csv")
 
                 st.info("System updated with new knowledge. Please search again.")
+                st.write("Test Change")
