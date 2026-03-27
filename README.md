@@ -1,7 +1,7 @@
 # DQD: Duplicate Question Detection System
 
 ## Overview
-An AI-based system to detect similar questions and prevent duplicates using embeddings and cosine similarity.
+An AI-based system to detect semantically similar questions and prevent duplicate queries using embeddings and cosine similarity.
 
 ## Tech Stack
 - Python  
@@ -15,22 +15,20 @@ An AI-based system to detect similar questions and prevent duplicates using embe
 - Detect similar questions  
 - Suggest related questions  
 - Generate answers using AI  
-- Improve efficiency of question system  
+- Improve efficiency of question-answer systems  
 
 ## Screenshots
 
-### Home Page
-![Home](screenshots/home.png)
+### Question Answer Page
+![Question Answer](screenshots/QuestionAnswerpage.png)
 
-### Similar Questions
-![Similarity](screenshots/similarity.png)
-
-### Answer
-![Answer](screenshots/answer.png)
+### Duplicate Detection
+![Duplicate](screenshots/Duplicate.png)
 
 ## How to Run
 
 1. Install dependencies:
+
 ```pip install -r requirements.txt```
 
 2. Run the application:
