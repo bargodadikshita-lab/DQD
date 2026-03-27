@@ -8,10 +8,10 @@ st.set_page_config(
     layout="centered"
 )
 
-# 🔥 Load detector
+# Load detector
 detector = DuplicateDetector("data/qa_dataset.csv")
 
-# 🔥 Smaller Title (controlled size)
+# Smaller Title
 st.markdown(
     "<h3 style='text-align: center;'>DQD: AI-Based Semantic Duplicate Question Detection and Answering System</h3>",
     unsafe_allow_html=True
@@ -27,57 +27,55 @@ if st.button("Check"):
 
         score = result["best_score"]
 
-        st.write("🔍 Similarity Score:", round(score, 2))
+        st.write("Similarity Score:", round(score, 2))
 
-        # 🔥 STRONG MATCH
+        # STRONG MATCH
         if score > 0.80:
-            st.success("✅ Best Match Found!")
+            st.success("Best Match Found")
 
             best = result["matches"][0]
 
-            st.write("### 🟢 Best Match")
-            st.write("**Question:**", best["question"])
-            st.write("**Answer:**", best["answer"])
+            st.write("### Best Match")
+            st.write("Question:", best["question"])
+            st.write("Answer:", best["answer"])
 
-            # 🔥 Similar Questions (EXPANDABLE)
-            st.write("### 🔍 Similar Questions")
+            # Similar Questions
+            st.write("### Similar Questions")
 
             for match in result["matches"][1:]:
                 with st.expander(
                     f"{match['question']} (Score: {round(match['score'], 2)})"
                 ):
-                    st.write("**Answer:**", match["answer"])
+                    st.write("Answer:", match["answer"])
 
-        # 🔥 WEAK MATCH
+        # WEAK MATCH
         elif score > 0.65:
-            st.warning("⚠️ Weak Matches Found")
+            st.warning("Weak Matches Found")
 
             for match in result["matches"]:
                 with st.expander(
                     f"{match['question']} (Score: {round(match['score'], 2)})"
                 ):
-                    st.write("**Answer:**", match["answer"])
+                    st.write("Answer:", match["answer"])
 
-        # 🔥 NO MATCH → GEMINI
+        # NO MATCH → GEMINI
         else:
-            st.error("❌ No relevant match found")
+            st.error("No relevant match found")
 
-            st.write("🤖 Generating AI Answer...")
+            st.write("Generating AI Answer...")
             ai_answer = generate_answer(user_input)
 
-            st.write("### 🤖 AI Answer")
+            st.write("### AI Answer")
             st.write(ai_answer)
 
-            # 🔥 SAVE + RELOAD FIX
+            # SAVE + RELOAD
             if st.button("Save this Q&A"):
                 detector.add_new_qa(user_input, ai_answer, "data/qa_dataset.csv")
-                st.success("Saved successfully!")
+                st.success("Saved successfully")
 
-                # 🔥 Delete old embeddings (important)
                 if os.path.exists("data/embeddings.pt"):
                     os.remove("data/embeddings.pt")
 
-                # 🔥 Reload detector with updated data
                 detector = DuplicateDetector("data/qa_dataset.csv")
 
                 st.info("System updated with new knowledge. Please search again.")
